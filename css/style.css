@@ -7,6 +7,8 @@
 
 #main-container {
   display: flex;
+  font-family: Arial;
+  background-color: #f8f9fa;
 }
 
 #main-image {
@@ -41,7 +43,6 @@
 }
 
 header {
-  background-color: #f8f9fa;
   padding: 72px 24px 24px;
 }
 
@@ -49,8 +50,72 @@ header p {
   width: 75%;
   font-size: 1.3rem;
   font-weight: 500;
+  line-height: 1.4rem;
 }
 
 em {
   font-style: italic;
+}
+
+main {
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+main h2 {
+  font-size: 1.3rem;
+}
+
+form {
+  margin: 24px 0 0;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row > div:first-child {
+  margin-right: 64px;
+}
+
+.flex-row input {
+  width: 250px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  height: 1.7rem;
+  border: 1px solid #E5E7EB;
+}
+
+.flex-row input:focus {
+  border-color: blue;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  outline: 0;
+}
+
+footer {
+  padding: 24px;
+}
+
+footer button {
+  color: white;
+  padding: 12px 60px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  background-color: #475b38;
+  border: none;
+}
+
+footer button:hover {
+  cursor: pointer;
+}
+
+footer a {
+  color: #475b38;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
